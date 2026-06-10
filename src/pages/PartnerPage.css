@@ -1,0 +1,170 @@
+.partner-page {
+  background: var(--bg);
+}
+
+/* Purple Hero */
+.partner-hero {
+  background: linear-gradient(135deg, #7C4DFF 0%, #B391FF 100%);
+  padding: 18px 16px;
+  color: #fff;
+}
+.partner-hero h2 { font-size: 22px; font-weight: 800; margin-bottom: 4px; }
+.partner-hero p { font-size: 12px; opacity: 0.9; }
+
+/* My Trip Card */
+.my-trip-card {
+  background: #fff;
+  margin: -10px 16px 0;
+  border-radius: 18px;
+  padding: 12px;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+.my-trip-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.my-trip-title { font-size: 13px; font-weight: 700; }
+.my-trip-status {
+  background: var(--brand-light);
+  color: var(--brand-dark);
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.my-trip-info { font-size: 11px; color: var(--gray); }
+
+/* Filter Bar */
+.filter-bar {
+  padding: 12px 16px 4px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.filter-tag {
+  padding: 4px 10px;
+  background: #fff;
+  border-radius: 12px;
+  font-size: 11px;
+  color: var(--gray);
+  border: 1px solid var(--gray-light);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.filter-tag.active {
+  background: #7C4DFF;
+  color: #fff;
+  border-color: #7C4DFF;
+}
+
+/* Partner Card */
+.partner-card {
+  background: #fff;
+  margin: 0 16px 12px;
+  border-radius: 20px;
+  padding: 14px;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+}
+.partner-head {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--brand), #66BB6A);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.avatar.b { background: linear-gradient(135deg, #5b8def, #8da9f5); }
+.avatar.p { background: linear-gradient(135deg, #b391ff, #e6c4ff); }
+.avatar.g { background: linear-gradient(135deg, #4ad6a8, #84e8c4); }
+
+.partner-info { flex: 1; min-width: 0; }
+.partner-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--dark);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.verified { color: var(--green); font-size: 11px; }
+.partner-meta {
+  font-size: 11px;
+  color: var(--gray);
+  margin-top: 2px;
+}
+.match-score { text-align: center; flex-shrink: 0; }
+.match-score .num {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--brand);
+  line-height: 1;
+}
+.match-score .lb { font-size: 9px; color: var(--gray); }
+
+/* Partner Tags */
+.partner-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.ptag-mini {
+  background: var(--bg);
+  color: var(--gray);
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 8px;
+}
+
+/* Partner Route */
+.partner-route {
+  background: var(--brand-bg);
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 11px;
+  color: var(--brand-dark);
+  line-height: 1.5;
+  border-left: 3px solid var(--brand);
+}
+
+/* CTA Row */
+.partner-cta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--gray-light);
+}
+.partner-credit {
+  font-size: 11px;
+  color: var(--gray);
+}
+.partner-credit .score { color: var(--green); font-weight: 700; }
+.btn-mini {
+  padding: 5px 14px;
+  border-radius: 12px;
+  background: #7C4DFF;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}

@@ -1,0 +1,164 @@
+.plan-page {
+  background: var(--white);
+}
+
+.plan-hero {
+  background: linear-gradient(135deg, #3366FF 0%, #5B8DEF 100%);
+  padding: 18px 16px;
+  color: #fff;
+}
+.plan-hero h2 { font-size: 22px; font-weight: 800; margin-bottom: 4px; }
+.plan-hero p { font-size: 12px; opacity: 0.9; }
+
+.plan-form {
+  padding: 14px 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.plan-form .form-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.plan-form .form-input {
+  height: 40px;
+  border: 1px solid var(--gray-light);
+  border-radius: 8px;
+  padding: 0 10px;
+  font-size: 12px;
+  color: var(--dark);
+  background: var(--bg);
+  outline: none;
+  font-family: inherit;
+}
+.plan-form .form-input:focus {
+  border-color: var(--brand);
+  background: #fff;
+}
+
+.plan-form .stepper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.plan-form .step-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid var(--gray-light);
+  background: #fff;
+  color: var(--dark);
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plan-form .step-btn:hover { border-color: var(--brand); color: var(--brand); }
+.plan-form .step-value {
+  min-width: 36px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--brand);
+}
+
+.style-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.style-card {
+  aspect-ratio: 1.1;
+  border-radius: 10px;
+  border: 1.5px solid var(--gray-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #fff;
+  transition: 0.2s;
+}
+.style-card.active {
+  background: var(--brand-light);
+  border-color: var(--brand);
+}
+.style-card .ic { font-size: 24px; margin-bottom: 6px; line-height: 1; }
+.style-card .nm { font-size: 11px; color: var(--dark); font-weight: 600; }
+.style-card.active .nm { color: var(--brand-dark); }
+
+.budget-slider {
+  background: var(--bg);
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 8px;
+}
+.budget-display {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--gray);
+  margin-bottom: 6px;
+}
+.budget-display b { font-size: 16px; color: var(--brand); }
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  background: var(--gray-light);
+  border-radius: 2px;
+  outline: none;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--brand);
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(67, 160, 71, 0.4);
+}
+
+.pref-input {
+  width: 100%;
+  border: 1px solid var(--gray-light);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 12px;
+  color: var(--dark);
+  resize: none;
+  font-family: inherit;
+  background: var(--bg);
+  box-sizing: border-box;
+}
+.pref-input:focus { outline: none; border-color: var(--brand); background: #fff; }
+
+.plan-cta-btn {
+  margin: 8px 0 0;
+  background: linear-gradient(135deg, #3366FF, #1a47cc);
+  color: #fff;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(51, 102, 255, 0.35);
+  transition: 0.2s;
+  border: none;
+  width: 100%;
+}
+.plan-cta-btn:hover { transform: translateY(-2px); }

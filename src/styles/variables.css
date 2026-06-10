@@ -1,0 +1,61 @@
+:root {
+  /* Brand Colors */
+  --brand: #43A047;
+  --brand-dark: #2E7D32;
+  --brand-light: #E8F5E9;
+  --brand-bg: #F1F8E9;
+
+  /* Neutral Colors */
+  --dark: #1F2D3D;
+  --gray: #6B7788;
+  --gray-light: #E5E9F0;
+  --bg: #F5F7FA;
+  --white: #FFFFFF;
+
+  /* Accent Colors */
+  --green: #2CC185;
+  --blue: #3366FF;
+  --purple: #7C4DFF;
+  --red: #E53935;
+  --orange: #FFA726;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 12px rgba(46, 125, 50, 0.08);
+  --shadow-md: 0 6px 20px rgba(46, 125, 50, 0.12);
+  --shadow-lg: 0 16px 40px rgba(46, 125, 50, 0.18);
+
+  /* Border Radius */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 50%;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 14px;
+  --spacing-lg: 20px;
+  --spacing-xl: 28px;
+
+  /* Typography */
+  --font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-xs: 10px;
+  --font-sm: 11px;
+  --font-base: 13px;
+  --font-md: 14px;
+  --font-lg: 15px;
+  --font-xl: 18px;
+  --font-2xl: 22px;
+  --font-3xl: 28px;
+
+  /* Tab Bar */
+  --tab-height: 60px;
+
+  /* Status Bar */
+  --status-height: 36px;
+
+  /* Nav Bar */
+  --nav-height: 48px;
+}

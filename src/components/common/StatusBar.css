@@ -1,0 +1,29 @@
+.status-bar {
+  height: 36px;
+  padding: 8px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--dark);
+  background: var(--white);
+  position: relative;
+  z-index: 20;
+}
+
+.status-time {
+  font-weight: 600;
+}
+
+.status-right {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.status-right svg {
+  width: 16px;
+  height: 12px;
+  fill: var(--dark);
+}
